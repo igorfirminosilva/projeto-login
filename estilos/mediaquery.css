@@ -3,13 +3,14 @@
 
 /* TELA DE TABLET */
 @media screen and (min-width: 769px) and (max-width: 992px){
-
+    /*CONFIGURAÇÕES PARA TABLET*/
     body{
         background-image: linear-gradient(to top, #49a09d98, #5e258270);
     }
 
     section#login{
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -31,13 +32,14 @@
 /* TELA DE PC */
 
 @media screen and (min-width: 993px) and (max-width: 1366px){
-
+    /*CONFIGURAÇÕES PARA DESKTOP*/
     body{
         background-image: linear-gradient(to top, #49a09d98, #5e258270);
     }
 
     section#login{
         width: 930px;
+        height: 325px;
     }
 
     section#login > div#imagem{
@@ -59,13 +61,14 @@
 /* TELA DE TV */
 
 @media screen and (min-width: 1367px){
-
+    /*CONFIGURAÇÕES PARA DESKTOP*/
     body{
         background-image: linear-gradient(to top, #49a09d98, #5e258270);
     }
 
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -81,5 +84,6 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 15px 0px;
     }
 }
